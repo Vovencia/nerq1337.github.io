@@ -4,7 +4,7 @@ function renderTime() {
   var h = currentTime.getHours();
   var m = currentTime.getMinutes();
   var s = currentTime.getSeconds();
-  setTimeout("renderTime()", 0);
+  setTimeout("renderTime()", 300);
   if (h == 0) {
     h = 12;
   } else if (h > 12) {

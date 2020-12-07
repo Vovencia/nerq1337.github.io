@@ -1,0 +1,30 @@
+.socials {
+    margin: 10px 0;
+}
+.socials > * {
+    margin: 0 10px;
+}
+
+#vk {
+    font-weight: 300;
+    letter-spacing: 3px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#github {
+    font-weight: 300;
+    letter-spacing: 3px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#steam {
+    font-weight: 300;
+    letter-spacing: 3px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}

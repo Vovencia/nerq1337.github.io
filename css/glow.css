@@ -1,18 +1,11 @@
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  overflow: hidden;
-}
-
 .glowing {
-  position: relative;
+  position: absolute;
   min-width: 750px;
   height: 750px;
   margin: -150px;
   transform-origin: right;
   animation: colorChange 5s linear infinite;
+  pointer-events: none;
 }
 
 .glowing:nth-child(even) {
