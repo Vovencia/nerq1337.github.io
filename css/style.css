@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "Roboto-Light";
+  src: url("../fonts/Roboto-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: rgb(20, 20, 20);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.align {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#clockDisplay {
+  -webkit-transform: translate(-50%, +100%);
+  -ms-transform: translate(-50%, +100%);
+  transform: translate(-50%, +120%);
+  font-family: "Roboto-Light";
+  letter-spacing: 3px;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+}
+
+#nickname {
+  -webkit-transform: translate(-50%, -150%);
+  -ms-transform: translate(-50%, -150%);
+  transform: translate(-51%, -140%);
+  font-family: "Roboto-Regular";
+  font-size: 35px;
+  letter-spacing: 5px;
+}
+
+#vk {
+  font-family: "Roboto-Light";
+  letter-spacing: 3px;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+#github {
+  -webkit-transform: translate(-150%, -50%);
+  -ms-transform: translate(-150%, -50%);
+  transform: translate(-160%, -50%);
+  font-family: "Roboto-Light";
+  letter-spacing: 3px;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+#steam {
+  -webkit-transform: translate(+150%, -50%);
+  -ms-transform: translate(+150%, -50%);
+  transform: translate(+61%, -50%);
+  font-family: "Roboto-Light";
+  letter-spacing: 3px;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
